@@ -80,6 +80,7 @@ namespace WA_BGW_Macchine
 
         private void btn_Start_Click_1(object sender, EventArgs e)
         {
+            //Creazione metodi backgroundworker
             bgw1 = new BackgroundWorker();
             bgw1.WorkerReportsProgress = true;
             bgw1.WorkerSupportsCancellation = true;
