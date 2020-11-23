@@ -30,6 +30,7 @@ namespace WA_BGW_Macchine
             ptb_Car1.Location = new Point(151, 123);
             ptb_Car2.Location = new Point(151, 243);     
         }
+        //testtt
 
 
         private void Bgw_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
