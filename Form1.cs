@@ -18,18 +18,17 @@ namespace WA_BGW_Macchine
         
         public Form1()
         {
-            InitializeComponent();
-           
+            InitializeComponent();           
         }
 
       
 
         private void btn_Stop_Click(object sender, EventArgs e)
         {
+            //Stop Backgroundworker
             bgw1.CancelAsync();
             ptb_Car1.Location = new Point(151, 123);
-            ptb_Car2.Location = new Point(151, 243);
-            
+            ptb_Car2.Location = new Point(151, 243);     
         }
 
 
