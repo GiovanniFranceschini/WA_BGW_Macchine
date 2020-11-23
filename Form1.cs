@@ -20,7 +20,7 @@ namespace WA_BGW_Macchine
         {
             InitializeComponent();           
         }
-
+        //test
       
 
         private void btn_Stop_Click(object sender, EventArgs e)
