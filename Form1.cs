@@ -22,7 +22,7 @@ namespace WA_BGW_Macchine
         }
         //test
       
-
+        //
         private void btn_Stop_Click(object sender, EventArgs e)
         {
             //Stop Backgroundworker
