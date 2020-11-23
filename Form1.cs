@@ -13,6 +13,7 @@ namespace WA_BGW_Macchine
 {
     public partial class Form1 : Form
     {
+        //Dichiarazione backgroundworker
         BackgroundWorker bgw1;
         
         public Form1()
